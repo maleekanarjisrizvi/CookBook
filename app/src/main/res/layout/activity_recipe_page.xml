@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipePage"
+    android:background="@drawable/backg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recipepageimg"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/etentertitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUSHI"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="INGRDENTS"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/etenteringredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Ingredients"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#D1F02E"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/recipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="RECIPE"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/etenterrecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="recipe"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#D1F02E"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backarrow"
+        android:layout_marginTop="25dp"></ImageView>
+
+
+
+
+
+</RelativeLayout>

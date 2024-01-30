@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="160dp"
+        android:layout_height="196dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+
+                >
+                <ImageView
+                    android:id="@+id/ivfood"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/italian">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                   android:layout_gravity="center" >
+                    <TextView
+                        android:id="@+id/tvrecipename"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Italian"
+                        android:textColor="#426838"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/ibheart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Navigate to the next screen"
+                        android:src="@drawable/heart2">
+
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/ibnextarrow"
+                        android:layout_width="40dp"
+                        android:layout_height="58dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Navigate to the next screen"
+                        android:src="@drawable/nextarrow1">
+
+                    </ImageButton>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

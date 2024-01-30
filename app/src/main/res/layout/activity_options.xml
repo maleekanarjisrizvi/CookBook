@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options"
+    android:orientation="vertical"
+     android:background="@drawable/backg">
+
+    <Button
+        android:id="@+id/btnaddcuisine"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Add Cusine"
+        android:textSize="35dp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnaddrecipies"
+        android:layout_width="273dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="49dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Add Recipes"
+        android:textSize="35dp"
+        android:textStyle="bold"></Button>
+
+
+
+
+</LinearLayout>

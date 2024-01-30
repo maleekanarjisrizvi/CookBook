@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:layout_gravity="center"
+        android:layout_margin="80dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:textColor="#426838"
+        android:hint="Email"
+        android:background="@drawable/rounded_edittext_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:padding="20dp"></EditText>
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:textColor="#426838"
+        android:hint="Password"
+        android:background="@drawable/rounded_edittext_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="20dp"></EditText>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_margin="100dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#8BC34A"
+        android:text="Login"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        ></Button>
+
+
+
+
+
+
+
+</LinearLayout>
